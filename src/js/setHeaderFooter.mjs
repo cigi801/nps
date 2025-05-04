@@ -19,8 +19,8 @@ function setHeaderInfo(data) {
     footerEl.insertAdjacentHTML("afterbegin", footerTemplate(data));
   }
 
-  export default function setHeaderFooter(parkData) {
-    setHeaderInfo(parkData);
-    setFooter(parkData);
+  export default function setHeaderFooter(data) {
+    setHeaderInfo(data);
+    setFooter(data);
   }
 
